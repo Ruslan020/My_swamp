@@ -1,0 +1,114 @@
+body{
+    background-color: green;
+    padding: 100px;
+}
+table
+{
+    color: darkblue;
+    background-color: white;;
+    border: 3px solid coral;
+    border-collapse: collapse;
+    width: 90%;
+}
+td
+{
+    border: 2px double black;
+}
+th:first-child
+{
+    width: 200px;
+}
+th{
+    color: black;
+    background-color: darksalmon;
+    border: 3px solid brown;
+}
+.sidebar > ol > li
+{
+    padding-right: 80px;
+}
+.sidebar .ul-info
+{
+    display: none;
+}
+.sidebar li:hover .ul-info
+{
+    list-style-type: disc;
+    display: block;
+    margin: -13px 0 0 75px;
+    padding-left: 20px;
+    position: absolute;
+    border: 2px groove darkolivegreen;
+    background-color: darkslategrey;
+}
+a{
+    color: rgb(253, 249, 249);
+}
+.td-content{
+    background: url(img/APL.jpg) no-repeat blue;
+}
+.td-content div
+{
+    width:100%;
+    height:195px;
+}
+
+/* table-2 */
+.table-2 td
+{
+    border: 0px;
+    background-color: grey;
+}
+.table-2 td:first-child
+{
+    width: 80%;
+}
+
+.table-2-1 td{
+    background: url(img/CL.jpg) no-repeat rgb(7, 2, 65);
+    height: 100px;
+}
+img
+{
+    width:200px;
+    height:200px;
+}
+#img180, #img180_2
+{
+    border-radius: 100px;
+}
+#img180_2
+{
+    position: relative;
+    top: 250px;
+    transition: 0.5s;
+}
+.rotate
+{
+    transition: 3s;
+    transform: rotate(360deg);
+}
+.rotateEnd
+{
+    transform: rotate(0deg);
+    background: black;
+}
+.wall
+{
+    display: inline-block;
+    margin: 0;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    background: blue;
+}
+#red_ball
+{
+    display: inline-block;
+    margin: 0;
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
